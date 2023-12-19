@@ -79,5 +79,5 @@ st.markdown("""
 * **SIKAP**
 * **MONITORING**
 
-Sumber data *Dashboard* ini berasal dari **API JSON Versi 2** yang ditarik harian dari [ISB LKPP](https://lkpp.go.id). 
+Sumber data *Dashboard* ini berasal dari **API JSON Versi 2** yang ditarik harian dari [ISB LKPP](https://lkpp.go.id).""" 
 )
