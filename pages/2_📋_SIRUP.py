@@ -40,15 +40,14 @@ from fungsi import *
 logo()
 
 # Konfigurasi variabel lokasi UKPBJ
-daerah =    ["PROV. KALBAR", "KAB. BENGKAYANG", "KAB. MELAWI", "KOTA PONTIANAK", "KAB. SANGGAU", "KAB. SEKADAU", "KAB. KAPUAS HULU", "KAB. KUBU RAYA", "KAB. LANDAK", "KOTA SINGKAWANG", 
-             "KAB. SINTANG", "KAB. MEMPAWAH", "KAB. KETAPANG", "KAB. KATINGAN"]
+Satker =    ["BKPSDM", "BPBD", "SETDA", "SETWAN", "INSPEKTORAT"]
 
 tahuns = ["2024", "2023", "2022"]
 
-pilih = st.sidebar.selectbox("Pilih UKPBJ yang diinginkan :", daerah)
+pilih = st.sidebar.selectbox("Pilih UKPBJ yang diinginkan :", satker)
 tahun = st.sidebar.selectbox("Pilih Tahun :", tahuns)
 
-if pilih == "PROV. KALBAR":
+if pilih == "BKPSDM":
     kodeFolder = "prov"
     kodeRUP = "D197"
     kodeLPSE = "97"
