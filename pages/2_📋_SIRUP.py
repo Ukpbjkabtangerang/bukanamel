@@ -114,9 +114,9 @@ con = duckdb.connect(database=':memory:')
 #DatasetRUPSA = f"https://storage.googleapis.com/bukanamel/{kodeFolder}/sirup/RUPStrukturAnggaran{tahun}.parquet"
 
 ## Akses file dataset Arief
-DatasetRUPPP = f"https://data.pbj.my.id/{kodeRUP}/sirup/RUP-PaketPenyedia-Terumumkan{tahun}.parquet"
-DatasetRUPPS = f"https://data.pbj.my.id/{kodeRUP}/sirup/RUP-PaketSwakelola-Terumumkan{tahun}.parquet"
-DatasetRUPSA = f"https://data.pbj.my.id/{kodeRUP}/sirup/RUP-StrukturAnggaranPD{tahun}.parquet"
+DatasetRUPPP = f"/content/drive/MyDrive/Colab Notebooks/data/RUP-PaketPenyedia-Terumumkan-{tahun}.json"
+DatasetRUPPS = f"/content/drive/MyDrive/Colab Notebooks/data/RUP-PaketSwakelola-Terumumkan-{tahun}.json"
+DatasetRUPSA = f"/content/drive/MyDrive/Colab Notebooks/data/RUP-StrukturAnggaran-Terumumkan-{tahun}.json"
 
 ## Buat dataframe RUP
 try:
