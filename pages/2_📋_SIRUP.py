@@ -40,7 +40,8 @@ from fungsi import *
 logo()
 
 # Konfigurasi variabel lokasi UKPBJ
-Satker =    ["BKPSDM", "BPBD", "SETDA", "SETWAN", "INSPEKTORAT"]
+Satker =    ["PROV. KALBAR", "KAB. BENGKAYANG", "KAB. MELAWI", "KOTA PONTIANAK", "KAB. SANGGAU", "KAB. SEKADAU", "KAB. KAPUAS HULU", "KAB. KUBU RAYA", "KAB. LANDAK", "KOTA SINGKAWANG", 
+             "KAB. SINTANG", "KAB. MEMPAWAH", "KAB. KETAPANG", "KAB. KATINGAN", "KAB. SUMEDANG", "KAB. PARIGI MOUTONG"]
 
 tahuns = ["2024", "2023", "2022"]
 
